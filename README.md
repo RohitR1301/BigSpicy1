@@ -21,5 +21,5 @@ we then perform the linear and transient analysis using Xyce with the help of te
 ## 5) Generating wire and whole module tests
 We take the protobuf file, primitives, spice, test manifest and circuit analysis file to generate test for whole module. 
   
-## perform analysis on wire and whole module tests
+## 6) perform analysis on wire and whole module tests
 We take Final.pb, PDK primitives, test_manifest, test_analysis, PDK spice decks. Input capacitance and delays will be analysed.
