@@ -5,5 +5,7 @@ Primitives and spice files are needed by BigSpicy but they are not processed in 
 ### Steps to convert file into Xyce format
 
 ## Xyce
-1. Merge SPEF, Verilog and Spice files into circuit protobuf</n>
-After obtaining all the required files that is 7nm Primitives and Spice files in Xyce format, netlist and spice files. We need to merge them to 
+### 1) Merge SPEF, Verilog and Spice files into circuit protobuf</n>
+After obtaining all the required files that is 7nm Primitives and Spice files in Xyce format, netlist and spice files. We need to merge them as in order to generate a spice deck the order of ports for each instantiated module are also required which leads to dependency on PDK. The file we obtain after merging is circuit protobuf file.
+### steps to install Xyce on debian Linux 
+### Steps to merge file to obtain circuit protobuf
